@@ -1,0 +1,26 @@
+{
+  "name": "my-node-blog",
+  "version": "0.0.1",
+  "description": "node koa blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lx307697527/my-node-blog.git"
+  },
+  "keywords": [
+    "koa",
+    "node"
+  ],
+  "author": "liux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lx307697527/my-node-blog/issues"
+  },
+  "homepage": "https://github.com/lx307697527/my-node-blog#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
