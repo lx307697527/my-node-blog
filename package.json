@@ -4,7 +4,8 @@
   "description": "node koa blog",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev":"node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/lx307697527/my-node-blog#readme",
   "dependencies": {
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
   }
 }
