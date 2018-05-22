@@ -41,6 +41,15 @@ router.post('/signin', async (ctx, next) => {
 });
 
 
+MongoClient.connect("mongodb://localhost:27017/liux",function(err,db){
+  if(!err){
+      db.collection("col").insert({"a":1},function(err,result){
+          if(!err){
+              console.log(result);
+          }
+      })
+  }
+}) 
 
 //app 使用 router 中间件
 
