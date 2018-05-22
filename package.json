@@ -25,6 +25,8 @@
     "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.4.0",
-    "koa-static": "^4.0.2"
+    "koa-static": "^4.0.2",
+    "mongodb": "^3.1.0-beta4",
+    "mongoose": "^5.1.1"
   }
 }
